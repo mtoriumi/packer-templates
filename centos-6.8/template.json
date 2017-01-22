@@ -30,6 +30,7 @@
   ],
   "builders": [
     {
+      "vm_name": "centos-68",
       "type": "virtualbox-iso",
       "boot_command": [
         "<tab> text ks=http://{{ .HTTPIP }}:{{ .HTTPPort }}/ks.cfg<enter><wait>"
